@@ -1,0 +1,119 @@
+{
+  "machines": [
+    "AST4S 02 16L", "AST4S 03 16L", "AST4S 04 16L", "AST4S 05 16L", "AST4S 06 16L", "AST4S 07 16L", "AST4S 08 16L", "AST4S 09 16L", "AST4S 10 16L", "AST4S 11 16L", "AST4S 12 16L", "AST4S 13 12L", "AST4S 14 12L", "AST4S 15 16L", "AST4S 16 16L", "AST4S 17 16L", "AST4S 18 16L", "AST4S 19 16L", "AST4S 20 16L", "AST4S 21 16L", "AST4S 22 16L", "AST4S 23 12L", "AST4S 24 12L", "AST4S 25 12L", "AST4S 26 16L", "AST4S 27 16L", "AST4S 28 16L", "AST4S 29 16L", "AST4S 30 16L", "AST4S 31 12L", "AST4S 32 12L", "AST4S 33 16L", "AST4S 34 16L", "AST4S 35 16L", "AST4S 36 16L", "AST4S 37 12L", "AST4S 38 12L", "AST4S 39 12L", "AST4S 40 12L", "AST4S 41 16L", "AST4S 42 16L", "AST4S 43 16L", "AST4S 44 16L", "AST4S 45 16L", "AST4S 46 16L", "AST4S 47 16L", "AST4S 48 16L", "AST4S 49 16L", "AST4S 50 16L", "AST4S 51 16L", "AST4S 52 16L", "AST4S 53 16L", "AST4S 54 16L", "AST4S 55 16L", "AST4S 60 16L", "AST4S 61 16L", "AST4S 62 12L", "AST4S 63 16L", "AST4S 64 16L", "AST4S 65 16L", "AST4S 66 16L", "AST4S 67 16L", "AST4S 68 16L", "AST4S 69 16L", "AST4S 70 16L", "AST4S 71 16L", "AST4S 72 16L", "AST4S 73 12L",
+    "METICA 02", "METICA 03",
+    "AR60P 09", "AR60P 12", "AR60P 15", "AR60P 63",
+    "AR60PM2 19", "AR60PM2 26", "AR60PM2 31", "AR60PM2 32", "AR60PM2 45", "AR60PM2 54", "AR60PM2 58", "AR60PM2 59", "AR60PM2 61", "AR60PM2 OPA 46",
+    "AR60PS2 13", "AR60PS2 38", "AR60PS2 40", "AR60PS2 42", "AR60PS2 43", "AR60PS2 44", "AR60PS2 55", "AR60PS2 57",
+    "KANGHUI 1", "KANGHUI 2", "KANGHUI 5", "KANGHUI 6", "KANGHUI 7", "KANGHUI 8", "KANGHUI 9",
+    "MANUAL (4 FILLING)",
+    "XIANFEI 02", "XIANFEI 03",
+    "CHUANGDA 1", "CHUANGDA 2"
+  ],
+  "products": [
+    {
+      "mid": "300101",
+      "name": "Sachet Lokal L3",
+      "category": "Sachet Lokal",
+      "inkjet": {
+        "line1": "[DD]-[MM]-[YYYY]",
+        "line2": "[Shift] [Mesin]",
+        "line3": "EXP [DD]-[MM]-[YYYY]"
+      },
+      "emboss": "BATCH LOKAL-S",
+      "noteKey": "INFO",
+      "noteText": "Pastikan cetakan tinta berada di tengah seal bawah sachet."
+    },
+    {
+      "mid": "300102",
+      "name": "Sachet Ekspor L3",
+      "category": "Sachet Ekspor",
+      "inkjet": {
+        "line1": "[YYYY]-[MM]-[DD]",
+        "line2": "[Shift] [Mesin] EXP",
+        "line3": "EXP [YYYY]-[MM]-[DD]"
+      },
+      "emboss": "EXP-OK-EX",
+      "noteKey": "STANDAR EKSPOR",
+      "noteText": "Gunakan format tanggal internasional dan verifikasi kode negara tujuan."
+    },
+    {
+      "mid": "300201",
+      "name": "Pouch Lokal L3",
+      "category": "Pouch Lokal",
+      "inkjet": {
+        "line1": "[DD]-[MM]-[YYYY]",
+        "line2": "[Shift] [Mesin]",
+        "line3": "EXP [DD]-[MM]-[YYYY]"
+      },
+      "emboss": "SEAL-TOP-LOC",
+      "noteKey": "PERHATIAN",
+      "noteText": "Kombinasikan cetak Inkjet dan stempel Emboss pada seal atas pouch."
+    },
+    {
+      "mid": "300202",
+      "name": "Pouch Ekspor L3 (High-Speed OPA)",
+      "category": "Pouch Ekspor",
+      "inkjet": {
+        "line1": "[YYYY]-[MM]-[DD]",
+        "line2": "[Shift] [Mesin] OPA",
+        "line3": "EXP [YYYY]-[MM]-[DD]"
+      },
+      "emboss": "OPA-EXP-46",
+      "noteKey": "HIGH-SPEED LINE",
+      "noteText": "Gunakan tinta hitam pekat; atur titik potong film sesuai standar OPA 46."
+    },
+    {
+      "mid": "300301",
+      "name": "Botol Lokal L3",
+      "category": "Botol Lokal",
+      "inkjet": {
+        "line1": "[DD][MM][YY][Shift]",
+        "line2": "PROD [DD]-[MM]-[YYYY]",
+        "line3": "EXP [DD]-[MM]-[YYYY]"
+      },
+      "emboss": "BOTOL-LOC",
+      "noteKey": "POSISI",
+      "noteText": "Cetak pada bagian bahu atau tutup botol menggunakan tinta solvent-based."
+    },
+    {
+      "mid": "300302",
+      "name": "Botol Ekspor L3",
+      "category": "Botol Ekspor",
+      "inkjet": {
+        "line1": "[YYYY][MM][DD][Shift]",
+        "line2": "LOT EXPORT SPEC",
+        "line3": "EXP [YYYY]-[MM]-[DD]"
+      },
+      "emboss": "BOTOL-EXP",
+      "noteKey": "TRACEABILITY",
+      "noteText": "Pastikan nomor lot dan barcode terbaca sempurna oleh pemindai optik."
+    },
+    {
+      "mid": "300401",
+      "name": "WW (Wayang Windu / Lini Terkait)",
+      "category": "WW Line",
+      "inkjet": {
+        "line1": "WW [DD]-[MM]-[YYYY]",
+        "line2": "[Shift] [Mesin]",
+        "line3": "EXP [DD]-[MM]-[YYYY]"
+      },
+      "emboss": "WW-SEAL-01",
+      "noteKey": "KODE KHUSUS",
+      "noteText": "Gunakan prefiks WW pada baris pertama untuk identifikasi jalur Wayang Windu."
+    },
+    {
+      "mid": "300501",
+      "name": "OT (Outer / Carton Packaging)",
+      "category": "Outer Carton",
+      "inkjet": {
+        "line1": "PROD: [DD]-[MM]-[YYYY]",
+        "line2": "EXP: [DD]-[MM]-[YYYY]",
+        "line3": "BATCH: [Shift] [Mesin]"
+      },
+      "emboss": "KARTON LUAR",
+      "noteKey": "UKURAN FONT",
+      "noteText": "Gunakan ukuran font besar dan tebal karena dicetak pada permukaan karton luar."
+    }
+  ]
+}

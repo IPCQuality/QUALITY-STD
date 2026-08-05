@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPC Mobile L3 - NextGen UI</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app-container">
+    <header class="app-header">
+      <div class="brand-badge">L3 Production System</div>
+      <h1>IPC Mobile <span class="highlight">Pro</span></h1>
+      <p>Sistem Informasi Standar Penandaan Produk</p>
+    </header>
+
+    <main class="card search-card">
+      <div class="input-group">
+        <label for="midInput">Nomor MID Produk</label>
+        <div class="input-field">
+          <span>🔍</span>
+          <input type="text" id="midInput" placeholder="Contoh: 123456" autocomplete="off">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="tanggalInput">Tanggal Produksi</label>
+        <div class="input-field">
+          <span>📅</span>
+          <input type="date" id="tanggalInput">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="shiftInput">Shift Kerja</label>
+        <div class="input-field">
+          <span>🕒</span>
+          <select id="shiftInput">
+            <option value="" disabled selected>Pilih Shift</option>
+            <option value="1">Shift 1 (Pagi)</option>
+            <option value="2">Shift 2 (Sore)</option>
+            <option value="3">Shift 3 (Malam)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="mesinInput">Mesin / Jalur L3</label>
+        <div class="input-field">
+          <span>🏭</span>
+          <input type="text" id="mesinInput" placeholder="Ketik atau pilih mesin..." autocomplete="off">
+        </div>
+        <div id="mesinDropdown" class="dropdown-list hidden"></div>
+      </div>
+
+      <button id="searchBtn" class="primary-btn">Cari Standar Produk</button>
+    </main>
+
+    <section id="resultSection" class="result-section hidden">
+      <div class="card result-card">
+        <h2>📋 Hasil Standar Penandaan</h2>
+        <div class="spec-grid">
+          <div class="spec-item">
+            <span class="label">Format Inkjet Baris 1:</span>
+            <span id="resInkjet1" class="value code">--</span>
+          </div>
+          <div class="spec-item">
+            <span class="label">Format Inkjet Baris 2:</span>
+            <span id="resInkjet2" class="value code">--</span>
+          </div>
+          <div class="spec-item">
+            <span class="label">Format Inkjet Baris 3:</span>
+            <span id="resInkjet3" class="value code">--</span>
+          </div>
+          <div class="spec-item">
+            <span class="label">Format Emboss:</span>
+            <span id="resEmboss" class="value code">--</span>
+          </div>
+        </div>
+
+        <div id="formatNoteBox" class="format-note hidden">
+          <span id="noteKey" class="note-key">CATATAN:</span>
+          <span id="noteText" class="note-text">--</span>
+        </div>
+
+        <button id="printBtn" class="print-btn">🖨️ Cetak / Simpan PDF</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
